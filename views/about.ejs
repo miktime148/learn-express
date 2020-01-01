@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel='stylesheet' href='/stylesheets/style.css' />
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<nav class = nav role="navigation">
+    <a href="/">Back</a>
+</nav>
+
+<body class = body_generic>
+    <div class = bold>
+        About
+    </div>
+
+    <p>
+        This website gives data on bounding boxes of many countries of the world.
+    </p>
+
+    <div class = bold>
+        What is a bounding box?
+
+        <div class = normal>
+            <p>
+                A bounding box is an area defined by 2 longitudinal and latitudinal points, that fully encloses the entire object. In our case, the object is the country itself (Ex. China below)
+            </p>
+        </div>
+        
+        <img src="/images/china_bounding_box.png" alt="China Bounding Box" />
+    </div>
+
+    <footer>
+        <% include ./partials/footer %>
+    </footer>
+
+</body>
+</html>

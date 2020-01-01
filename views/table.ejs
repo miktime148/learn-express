@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+ 	<head>
+    	<% include ./partials/head %>
+    	<link rel='stylesheet' href='/stylesheets/style.css' />
+  	</head>
+
+    <nav class = nav role="navigation">
+       <a href="/">Back</a>
+   	</nav>
+
+  	<body class = 'body_data bold'>
+    	<p>Table of Bounding Boxes for Various Countries</p>
+
+  		<table class = 'normal' style="width:50%">
+
+  			<% for(var i = 0; i < boundingboxes[0].length; i++) { %>
+		    	<tr>
+			    	<th><%= boundingboxes[0][i] %></th>
+			    	<th><%= boundingboxes[1][i] %></th>
+			    	<th><%= boundingboxes[2][i] %></th>
+			    	<th><%= boundingboxes[3][i] %></th>
+			    	<th><%= boundingboxes[4][i] %></th>
+			    	<th><%= boundingboxes[5][i] %></th>
+		  		</tr>
+	 		<% } %>
+
+		</table> 
+
+  	</body>
+
+  	<script src="/javascripts/topbutton.js"></script> 
+
+</html>
