@@ -11,4 +11,4 @@ Instructions to start:
    #### `npm install (to install dependencies)`<br>
    #### `npm start (to start the server)`
 
-   3. type localhost:3000 into the url section of any browser to get to the website
+   3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
